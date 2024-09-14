@@ -6,4 +6,4 @@ npm run dev
 
 ## COMO PROBAR LA API ##
 
-Para probar la api se puede utilizar el archivo logs.hhtp ubicado en la carpeta request dando click en la opcion Send Request de cada solicitud.
+Para probar la api se puede utilizar el archivo logs.http ubicado en la carpeta request dando click en la opcion Send Request de cada solicitud.
