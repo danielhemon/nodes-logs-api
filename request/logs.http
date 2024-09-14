@@ -1,0 +1,25 @@
+###
+GET http://localhost:4000/api/logs
+
+###
+POST http://localhost:4000/api/logs
+Content-Type: application/json
+
+{
+    "date": "2024-09-12",
+    "description": "mi tercer log.",
+    "type": "form"
+}
+
+###
+GET http://localhost:4000/api/logs/66e52e160c327355b34d22d0
+
+###
+DELETE http://localhost:4000/api/logs/66e597dbfc7a9f71554b915c
+
+###
+GET http://localhost:4000/api/logs/type?type=api
+
+
+###
+GET http://localhost:4000/api/logs/date?startDate=2024-09-13&endDate=2024-09-14
